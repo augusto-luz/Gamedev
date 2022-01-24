@@ -1,0 +1,358 @@
+h1 {
+    color: red;
+}
+* {
+    font-family: 'Roboto';
+}
+
+#navbar img {
+    width: 60px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Amiri|Aref+Ruqaa|Cairo|Changa|El+Messiri|Harmattan|Jomhuria|Lateef|Mirza|Rakkas|Lato|Source+Sans+Pro|Ubuntu');
+/* *{transition: 0.3s linear; padding:0;margin:0;} */
+body{
+    background-image: linear-gradient(-225deg, rgba(44, 216, 213, 0.45) 0%, #C5C1FF 56%, rgba(255, 186, 195, 0.71) 100%);
+
+
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+h2 {margin:2em; letter-spacing:0.2em; color: #EEE}
+.container{
+	margin: 3em auto;
+	width: 90%;
+	text-align: center;
+/* 	font-family: 'Aref Ruqaa', serif; */
+	font-family: 'Ubuntu', sans-serif;
+/* font-family: 'Lato', sans-serif; */
+font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+.item {
+/* 	background: #FFF; */
+	margin: 2em;
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	border-radius: 20px;
+	transform: rotate(45deg);
+	position: relative;
+	overflow: hidden;
+	transition: all 0.3s ease-in-out;
+	padding:0;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	margin: 0 auto;
+}
+.item p {
+	position: absolute;
+	transform: rotate(-45deg);
+	top: 30%;
+	left: -20%;
+	background: rgba(0, 0, 0, 0.7);
+	padding: 10px 20px;
+	width:130%;
+	text-align:center;
+	color: #fff;
+	transition: all 0.3s ease-in-out;
+
+}
+
+.item:hover {
+	transform: none;
+	transform: scale(1.5);
+	z-index:2;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.item:hover > p {
+	transform: none;
+	top: 0;
+
+}
+
+
+img {
+	width: 100%;
+	height: 100%;
+	transition: 0.3s linear;
+
+
+
+}
+.item:hover > img {
+	transform: none;
+
+}
+
+p.ar {
+font-family: 'Rakkas', cursive;
+	font-size:1.1em;
+
+}
+
+
+
+
+body::-webkit-scrollbar
+{
+	width: 0.7em;
+	background-color: #EEE;
+}
+
+body::-webkit-scrollbar-thumb{
+/* 	background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%); */
+	background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+/* 	background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%); */
+/*   background: linear-gradient(to top, #2193b0, #6dd5ed);  */
+	border-radius:1em;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100italic,100,300,300italic,900italic,900,700,700italic,500italic,500,400italic);
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.publicaciones-blog-home {
+    padding-bottom: 50px;
+	background: url("") no-repeat fixed center center;
+    background-size: 100% auto;
+	background-color: #f1f1f1;
+}
+.publicaciones-blog-home h2 {
+	text-align: center;
+    font-weight: 300;
+    margin-bottom: 30px;
+    font-size: 44px;
+    margin-top: 70px;
+}
+.publicaciones-blog-home h2 b {
+	color: #2BBCDE;
+}
+.publicaciones-blog-home .fondo-publicacion-home {
+	background: #ffffff;
+    border-radius: 3px;
+    overflow: hidden;
+    height: 400px;
+    margin-bottom: 20px;
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    position: relative;
+}
+.publicaciones-blog-home .fondo-publicacion-home:hover h3 {
+	color: #2BBCDE;
+/*    box-shadow: 0px 4px 3px 3px rgba(0, 0, 0, 0.08);*/
+}
+.publicaciones-blog-home .fondo-publicacion-home:hover .mascara-enlace-blog-home {
+    height: 400px;
+    width: 100%;
+    color: #aaa;
+    background-color: #2BBCDE;
+    position: absolute;
+    top: 0;
+    opacity: 0.95;
+    -webkit-transition: all 0.4s ease-out 0s;
+    -o-transition: all 0.4s ease-out 0s;
+    transition: all 0.4s ease-out 0s;
+}
+.publicaciones-blog-home .black {
+	background: #2BBCDE;
+}
+.publicaciones-blog-home .fondo-publicacion-home .img-publicacion-principal-home {
+	display: inline-block;
+    width: 50%;
+    overflow: hidden;
+    height: 100%;
+}
+.publicaciones-blog-home .fondo-publicacion-home .img-publicacion-principal-home img {
+	height: 100%;
+    width: auto;
+}
+.publicaciones-blog-home .fondo-publicacion-home .contenido-publicacion-principal-home {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    padding: 0 10px;
+}
+.publicaciones-blog-home .fondo-publicacion-home .contenido-publicacion-principal-home h3 {
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.publicaciones-blog-home .fondo-publicacion-home .contenido-publicacion-principal-home p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+}
+.publicaciones-blog-home .fondo-publicacion-home .contenido-publicacion-home {
+    padding: 0 10px;
+}
+.publicaciones-blog-home .fondo-publicacion-home .contenido-publicacion-home h3 {
+    font-weight: 900;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.publicaciones-blog-home .fondo-publicacion-home .img-publicacion-home  {
+    overflow: hidden;
+    max-height: 180px;
+}
+.mascara-enlace-blog-home {
+    height: 400px;
+    width: 0%;
+    color: #aaa;
+    background-color: #2BBCDE;
+    position: absolute;
+    top: 0;
+    opacity: 0.0;
+    -webkit-transition: all 0.4s ease-out 0s;
+    -o-transition: all 0.4s ease-out 0s;
+    transition: all 0.4s ease-out 0s;
+    text-align: center;
+    padding-top: 180px;
+}
+.mascara-enlace-blog-home span {
+    text-align: center;
+    max-height: 400px;
+    border: 1px solid #fff;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 900;
+    font-size: 16px;
+}
+.publicaciones-blog-home .todas-las-publicaciones-home {
+    background: #2BBCDE;
+    height: 400px;
+    width: 100%;
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.publicaciones-blog-home .todas-las-publicaciones-home span {
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 26px;
+}
+@media (max-width: 768px) {
+    .publicaciones-blog-home h2 {
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 30px;
+    font-size: 34px;
+    margin-top: 70px;
+    }
+    .publicaciones-blog-home .fondo-publicacion-home {
+    background: #ffffff;
+    border-radius: 3px;
+    overflow: hidden;
+    height: inherit;
+    margin-bottom: 20px;
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    position: relative;
+    }
+    .publicaciones-blog-home .fondo-publicacion-home .img-publicacion-principal-home {
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    }
+    .publicaciones-blog-home .fondo-publicacion-home .img-publicacion-principal-home img {
+    height: auto;
+    width: 100%;
+    }
+    .publicaciones-blog-home .black {
+    background: #fff;
+    }
+    .publicaciones-blog-home .fondo-publicacion-home .contenido-publicacion-principal-home {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    padding: 0 10px;
+    }
+    .publicaciones-blog-home .fondo-publicacion-home .contenido-publicacion-principal-home h3 {
+    font-weight: 900;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 20px;
+    }
+    .publicaciones-blog-home .fondo-publicacion-home .contenido-publicacion-principal-home p {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    }
+    .publicaciones-blog-home .todas-las-publicaciones-home {
+    background: #2BBCDE;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 3px;
+    }
+
+    @import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
+    @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600|Roboto Mono");
+    @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+    @font-face {
+      font-family: 'Dosis';
+      font-style: normal;
+      font-weight: 300;
+      src: local('Dosis Light'), local('Dosis-Light'), url(http://fonts.gstatic.com/l/font?kit=RoNoOKoxvxVq4Mi9I4xIReCW9eLPAnScftSvRB4WBxg&skey=a88ea9d907460694) format('woff2');
+    }
+    @font-face {
+      font-family: 'Dosis';
+      font-style: normal;
+      font-weight: 500;
+      src: local('Dosis Medium'), local('Dosis-Medium'), url(http://fonts.gstatic.com/l/font?kit=Z1ETVwepOmEGkbaFPefd_-CW9eLPAnScftSvRB4WBxg&skey=21884fc543bb1165) format('woff2');
+    }
+    body {
+
+        font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif,  Open Sans;
+        font-size: 14px;
+        line-height: 1.42857;
+        height: 350px;
+        padding: 0;
+        margin: 0;
+    }
+    .copyrights{
+        margin-top:25px;
+        }
+
+        footer.container-fluid.text-center.foot {
+            background: #383838;
+        }
+
+        .dark-line{
+        border-top: 1px solid #525252;
+        }
+
+        .white-txt{
+        color: #FFF;
+        }
+
+
+        a.link {
+            color: #008acc;
+            border: 1px #008acc solid;
+            padding: 5px;
+            text-decoration: none;
+        }
+
+        a.link:hover {
+        background: #008acc;
+            color: #383838;
+        }
+
+        .footimg{
+        width: 5rem;
+        }
+}
